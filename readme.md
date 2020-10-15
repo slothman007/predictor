@@ -1,0 +1,1 @@
+flask app utilizing scikit learn to implement a basic disease predictor

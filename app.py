@@ -26,9 +26,9 @@ def result():
 		print(('Name of the infection = %s , confidence score of : = %s') %(y_diagnosis[0],y_pred_2.max()* 100),'%' )
 		return render_template("index.html",result = y_diagnosis[0],per=y_pred_2.max()* 100)
 
-dt=pickle.load(open('model.pkl','rb'))
-train = pd.read_csv("Training.csv")
-X = train.drop(['prognosis'],axis=1)
-X.head()
-if(__name__=='__main__'):
-	app.run()
+# dt=pickle.load(open('model.pkl','rb'))
+# train = pd.read_csv("Training.csv")
+# X = train.drop(['prognosis'],axis=1)
+# X.head()
+# if(__name__=='__main__'):
+# 	app.run()
